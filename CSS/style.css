@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { margin:0; padding:0; }
+#clearer { clear:both; }
+body { background-color:#CCC; }
+
+h1 { text-align:center; font-family:Verdana, Geneva, sans-serif; font-size:30px; color:#36F; margin-top:20px; }
+
+#malware { text-align:center; font-family:Verdana, Geneva, sans-serif; font-size:16px; margin-top:10px; }
+
+#nav { width:960px; margin:50px auto; }
+#nav ul { list-style:none; }
+#nav li { float:left; width:100px; height:50px; text-align:center; font-size:18px; display:block; background-color:#36F; border-left:1px solid #CCC; }
+#nav a { display:block; width:100px; height:50px; line-height:50px; }
+#nav a:link, #nav a:visited { color:#FFF; text-decoration:none; background-color:#36F; }
+#nav a:hover { text-decoration:none; background-color:#390; }
+
+#contenitore { width:960px; margin:0 auto; }
+.testi { border:1px solid #36F; margin-top:20px; display:none; }
+.testi p { font-family:Verdana, Geneva, sans-serif; font-size:16px; margin:20px; }
+.testi h2 { font-family:Verdana, Geneva, sans-serif; font-size:22px; color:#36F; margin-top:20px; margin-left:20px; }
